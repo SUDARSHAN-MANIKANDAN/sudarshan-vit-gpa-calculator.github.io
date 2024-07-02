@@ -1,0 +1,66 @@
+h1{
+    margin-left: 30%;
+    border-radius: 100px;
+    width : 550px;
+    text-align: center;
+    background-color: black ;
+    color: silver;
+}
+#center{
+    border: solid 2px white;
+    background-color: black;
+    text-align: center;
+    width : 550px;
+    height: 500px;
+    margin-left: 30%;
+    border-style: dashed;
+    padding-top: 100px;
+    border-radius: 100px;
+    color: antiquewhite;
+    box-shadow: 0 0 40px palegoldenrod;
+}
+body{
+
+    background-color: black;
+   
+}
+
+
+button,.button{
+    border: solid 2px white;
+    border-radius: 100px;
+    background-color: black;
+    width: 100px;
+    height: 50px;
+    margin : 10px 10px;
+    color: palegoldenrod;
+    box-shadow: 0 0 25px;
+    outline: none;
+}
+input{
+    height: 30px;
+    
+    border-radius: 100px;
+    text-align: center;
+}
+#result{
+    background-color: silver;
+    color: black;
+
+}
+
+#left{
+    width: 250px;;
+    background-color: silver;
+    color:black;
+    font-size: medium;
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    font-weight: bold;
+}
+a{
+    color: black;
+}
+
+

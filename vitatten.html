@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>VIT ATTENDANCE CALCULATOR</title>
+        <link rel = "stylesheet" href="vitatten.css">  
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">     
+    </head>
+    <BODY>
+     
+        <div id = "left">
+            <ul>MORE
+                <a href="vitgpacal.html"><li>GPA CALCULATOR</li></a>
+            <li>GPA ESTIMATOR</li>
+            </ul>
+        </div>
+    
+
+    <h1>VIT ATTENDANCE CALCULATOR</h1>
+    <div id ="center">
+       
+    <h3>NUMBER OF CLASSES PRESENT</h3>
+    <input  class = "present" type = "number" placeholder="present" min = "0" required>
+    <br>
+    <h3>TOTAL CLASSES TILL NOW</h3>
+    <input  class = "total" type = "number" placeholder="total" min = "0" required>
+    <br>
+    <h3>PERCENTAGE NEEDED/ACQUIRED</h3>
+    <input class = "percentage" type = "number" placeholder="percentage" min="0"  required>
+    <br>
+    <br>
+    <button onclick="result()" >Submit</button>
+    <input class = "button" type = "reset" onclick="reset()">
+    <br>
+    <h3 id = "result"></h3>
+    
+</div>
+
+<script src = "viratten.js"></script>
+
+    </BODY>
+</html>
